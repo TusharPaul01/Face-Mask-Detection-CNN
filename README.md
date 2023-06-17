@@ -13,6 +13,6 @@ Next, we build the CNN model. The model consists of multiple convolutional and m
 With the model architecture defined, we can now train the model on the training dataset. We specify the number of epochs, batch size, and other training parameters to optimize the model's performance. During training, the model learns to differentiate between masked and unmasked faces by adjusting the weights of the network's parameters.
 
 After training, we can evaluate the model's performance using the validation dataset. 
-# Accuracy attained 98.8%
+## Accuracy attained 98.8%
 
 To put the model into practical use, we can upload an image for inference. Using the trained model, we can apply it to the input image and determine whether the person in the image is wearing a mask or not. The output can be displayed along with the image using Matplotlib for easy visualization.
