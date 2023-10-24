@@ -3,7 +3,7 @@ Using Convolutional Neural Network model
 
 Face mask detection has become crucial in ensuring public safety during the COVID-19 pandemic. With the help of deep learning techniques, we can develop a model that can accurately determine whether a person is wearing a face mask or not. In this project, we utilize a CNN architecture, which excels at image classification tasks.
 
-To begin, we import the necessary libraries such as TensorFlow, Keras, cv2 (OpenCV), and Matplotlib. These libraries provide the tools we need for image preprocessing, model building, and visualization.
+To begin, we import the necessary libraries such as TensorFlow, Keras, cv2 (OpenCV), & Matplotlib. These libraries provide the tools we need for image preprocessing, model building, and visualization.
 
 We then load and preprocess the dataset. We have a dataset of approx. 10,000 images, with a total size of around 330 MB, we split it into training and validation sets. The dataset is loaded using the image_dataset_from_directory function, which conveniently handles the directory structure and class labels. We also normalize the pixel values between 0 and 1 to enhance model performance.
 Dataset used : https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset
